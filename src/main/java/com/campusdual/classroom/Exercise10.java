@@ -10,7 +10,7 @@ public class Exercise10 {
     // COLOR_BOLA puede ser → rojo, azul, verde
     public static void main(String[] args) {
         int contadorBolasAzul = 0;
-        String bola ="";
+        String bola;
         while ((contadorBolasAzul < 2)){
             bola = getBall();
             System.out.println(bola);
